@@ -1,8 +1,16 @@
 import React from 'react'
+import { Route, BrowserRouter, Switch } from 'react-router-dom'
+
+import  Home  from './components/common/Home'
 
 const App = () => {
   return (
-    <h1>Hello World</h1>
+    <BrowserRouter>
+      <Switch>
+        {/* <h1>Hello World</h1> */}
+        <Home />
+      </Switch>
+    </BrowserRouter>
   )
 }
 
