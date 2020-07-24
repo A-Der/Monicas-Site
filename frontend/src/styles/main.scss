@@ -1,0 +1,72 @@
+.home-header{
+  padding-top: 0.5em;
+  background-color: snow;
+  display: flex;
+  justify-content: space-between;
+  .header-left{
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  .header-title{
+    font-size: 2em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+  }
+  .header-logo{
+    height: 4.2em;
+  }
+}
+}
+
+.navbar{
+  position: fixed;
+  background-color: snow;
+  width: 100%;
+  margin-top: 0;
+  .links{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    padding-bottom: 0.5em;
+  }
+}
+
+.home-page{
+  width: 100%;
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #16105a 0%, #060725 60%);
+.home-container-top{
+  .chakras-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70em;
+  }
+  p.home-blurb{
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.home-container-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  .open-box-pic{
+    height: 40em;
+  }
+  .box-blurb{
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    width: 25%;
+    margin-left: 20px;
+  }
+}
+
+}

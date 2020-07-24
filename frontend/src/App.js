@@ -1,13 +1,14 @@
 import React from 'react'
-import { Route, BrowserRouter, Switch } from 'react-router-dom'
+import {  BrowserRouter, Switch } from 'react-router-dom'
 
-import  Home  from './components/common/Home'
+import Home from './components/common/Home'
+import Navbar from './components/common/Navbar'
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Navbar />
       <Switch>
-        {/* <h1>Hello World</h1> */}
         <Home />
       </Switch>
     </BrowserRouter>
